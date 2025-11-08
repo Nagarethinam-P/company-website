@@ -1,0 +1,82 @@
+.about {
+    padding: 80px 60px;
+    background: #f5f7ff;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+  .about h2 {
+    color: #0d47a1;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about .mission {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 50px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* 👥 Team Cards */
+  .team {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+  }
+  
+  .card h3 {
+    color: #0d47a1;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  /* 🕓 Timeline */
+  .timeline {
+    max-width: 700px;
+    margin: auto;
+    text-align: left;
+    position: relative;
+    padding-left: 30px;
+    border-left: 4px solid #0d47a1;
+  }
+  
+  .timeline-item {
+    margin-bottom: 25px;
+  }
+  
+  .timeline-item .year {
+    color: #0d47a1;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .timeline-item .detail {
+    color: #333;
+    margin-left: 10px;
+  }
+  
